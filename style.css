@@ -105,17 +105,26 @@ button {
     width: 140px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .calc {
     width: 280px;
+    padding: 20px;
   }
   .calc-display-input {
     width: 260px;
+    height: 40px;
+    margin: 0;
   }
   .btn {
     width: 60px;
   }
   .btn-long {
     width: 132px;
+  }
+  #result {
+    width: 8rem;
+  }
+  .main {
+    padding-top: 0px;
   }
 }
